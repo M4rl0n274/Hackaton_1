@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+SA:wght@100..400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", serif;
+}
+
+.encabezado{
+    background-image: linear-gradient(to right, rgb(224, 90, 0, 0.3) 30%, rgb(88, 38, 48, 0.3) 64%, rgb(184, 113, 0, 0.3) 100%), url(./imagenes/banner.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.menu_navegacion {
+    background-color: rgba(88, 38, 48, 0.5);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /**Nos permite colocarlo por encima de otros elementos*/
+}
+
+.lista_navegacion{
+    list-style: none;
+}
+
+.lista_navegacion:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 10px rgb(250, 1, 1));
+    border-radius: 4px;
+}
+
+.a_lista_nav{
+    text-decoration: none;
+    font-size: 17px;
+    color: aliceblue;
+}
+
+.a_lista_nav:hover{
+    text-decoration:underline;
+}
+
+.carro_compra{
+    width: 30px;
+}
+
+.carro_compra:hover{
+    transform: scale(1.2);
+}
+
+.parrafo_banner {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-110%, 10%);
+    width: 400px;
+    padding: 20px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 25px;
+    filter: drop-shadow(0px 0px 10px rgb(250, 1, 1));
+    border-radius: 10px;
+    font-family: "Playwrite AU SA", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.titulos {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #582630;
+    margin: 2rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.contenedorProductosT {
+    max-width: 1400px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.tarjetaProductos {
+    flex: 0 1 300px;
+    background: white;
+    border-radius: 30px;
+    box-shadow: 0 3px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    padding: 1rem;
+}
+
+.tarjetaProductos:hover {
+    transform: translateY(-15px);
+}
+
+.imagenProducto {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+}
+
+.nombreProducto {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.precioProducto {
+    font-size: 1.5rem;
+    color: #582630;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.elegirTalla {
+    margin-bottom: 1rem;
+}
+
+.elegirTalla select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e05a00;
+    color-scheme: #582630;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.añadirCarro {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #b87100;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.añadirCarro:hover {
+    background-color: #e05a00;
+}
+
+.img_comprado {
+    display: none;
+    width: 200px;
+}
+
+
+@media (max-width: 765px){
+    .menu_navegacion{
+        display: flex;
+        flex-direction: column;
+    }
+}

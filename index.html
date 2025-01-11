@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />   
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style_header.css">
+    <link rel="stylesheet" href="styles_productos.css">
+    <title>Tienda de Ropa Deportiva</title>
+</head>
+<body>
+
+
+<header id="home" class="encabezado">
+    <nav class="contenedor_navegacion">
+        <ul class="menu_navegacion">
+            <li class="lista_navegacion"><a class="a_lista_nav" href="#home">Home</a> </li>
+
+            <li class="lista_navegacion"><a class="a_lista_nav" href="#deportes">Deportes</a> </li>
+
+            <li class="lista_navegacion"><a class="a_lista_nav" href="#taekwondo">Taewkondo</a> </li>
+
+            <li class="lista_navegacion"><a class="a_lista_nav" href="#patinaje">Patinaje</a> </li>
+
+            <li class="lista_navegacion"><a class="a_lista_nav" href="#skateboarding">Skate Boarding</a> </li>
+
+            <li class="lista_navegacion"><a class="a_lista_nav" href="#motociclismo">Motociclismo</a> </li>
+
+            <img class="carro_compra" src="imagenes/shopping-store.png" alt="carro_compras">
+        </ul>
+        <p class="parrafo_banner">¡Transforma tu vida con el poder del deporte!</p>
+    </nav>
+</header>
+
+<section id="deportes">
+    <div class="father">
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="https://i.pinimg.com/736x/f7/a4/3a/f7a43ab4e91f75dc1f6b309979af2b97.jpg" class="img-card">
+                </div>
+                <div class="card-back">
+                    <p class="description">Aprende este arte marcial lleno de tradición y técnica, ideal para fortalecer cuerpo y mente. Perfecto para desarrollar disciplina y confianza.</p>
+                </div>
+                <h2 class="titles">Taewkondo </h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    
+                    <img src="https://i.pinimg.com/736x/20/2a/65/202a657aefc84d15b42f1ee80d5c01dc.jpg" class="img-card">
+                </div>
+                <div class="card-back">
+                    <p class="description">Deslízate con libertad mientras perfeccionas giros y saltos. Un deporte que combina diversión y destreza. 
+                    </p>
+                    
+                </div>
+                <h2 class="titles">Patinaje </h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    <img src="https://i.pinimg.com/736x/ef/94/88/ef9488682b6dceb77a4d0cdec8282e93.jpg" class="img-card">
+                </div>
+                <div class="card-back">
+                    <p class="description">Domina las rampas y las calles con estilo propio. Libera tu creatividad con cada truco y movimiento.</p>
+                </div>
+                <h2 class="titles">Skate Boarding </h2>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-inner">
+                <div class="card-front">
+                    
+                    <img src="https://i.pinimg.com/736x/b5/d0/df/b5d0df4765ac7814e875e5ee5fe3e614.jpg" class="img-card">
+                </div>
+                <div class="card-back">
+                    <p class="description">Vive la velocidad y la emoción de las pistas. Perfecto para quienes buscan adrenalina y control total.</p>
+                </div>
+                <h2 class="titles">Motociclismo </h2>
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+<main> 
+    <h1 id="taekwondo" class="titulos">Taekwondo</h1>
+    <div class="contenedorProductosT">
+    <div class="tarjetaProductos">
+        <img src="./imagenes/dobok.jpg" alt="Dobok de Taekwondo" class="imagenProducto">
+        <h3 class="nombreProducto">Dobok Tradicional</h3>
+        <p class="precioProducto">$180.000</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/protecciones_taewkondo.jpg" alt="Set de Protecciones" class="imagenProducto"> 
+        <h3 class="nombreProducto">Set de Protecciones</h3>
+        <p class="precioProducto">$60.000</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/palchagui.jpg" alt="Palchagui de Entrenamiento" class="imagenProducto">
+        <h3 class="nombreProducto">Palchagui de Entrenamiento</h3>
+        <p class="precioProducto">$40.000</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="Único">Talla Única</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+    
+    <div class="tarjetaProductos">
+        <img src="./imagenes/bucal.jpg" alt="Protector Entrenamiento" class="imagenProducto">
+        <h3 class="nombreProducto">Protector Bucal</h3>
+        <p class="precioProducto">$20.000</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="Único">Talla Única</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+</div>
+
+<h1 id="skateboarding" class="titulos">Skateboarding</h1>
+<div class="contenedorProductosT">
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/tabla_default.jpg" alt="Tabla Skate" class="imagenProducto" id="tablaSkate">
+        <h3 class="nombreProducto">Tabla completa de Skateboarding</h3>
+        <p class="precioProducto">$ 390.000</p>
+        <div class="elegirTipo">
+            <select>
+                <option value="">Selecciona un estilo</option>
+                <option value="TS" data-imagen="./imagenes/shield.jpg" data-imagen-id="tablaSkate">Tabla Shield</option>
+                <option value="TEP" data-imagen="./imagenes/enka.jpg"  data-imagen-id="tablaSkate">Tabla Enka Purple Deck</option>
+                <option value="TCB" data-imagen="./imagenes/bob.jpg"  data-imagen-id="tablaSkate">Tabla Clop Bob</option>
+                <option value="TCC" data-imagen="./imagenes/cassette.jpg"  data-imagen-id="tablaSkate">Tabla Clop Cassette Classics Skateboard</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/madero_default.jpg" alt="Madero" class="imagenProducto" id="madero">
+        <h3 class="nombreProducto">Madero</h3>
+        <p class="precioProducto">$310.000</p>
+        <div class="elegirTipo">
+            <select>
+                <option value="">Selecciona un estilo</option>
+                <option value="MCS" data-imagen="./imagenes/candies.jpg" data-imagen-id="madero">Madero Candies Sunny</option>
+                <option value="MS" data-imagen="./imagenes/snickers.jpg" data-imagen-id="madero">Madero Snickers</option>
+                <option value="MSP" data-imagen="./imagenes/devil.jpg" data-imagen-id="madero">Madero Satan's Puke</option>
+                <option value="MP" data-imagen="./imagenes/pedro.jpg" data-imagen-id="madero">Madero Pedro</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/trucks_default.jpg" alt="Trucks" class="imagenProducto" id="trucks">
+        <h3 class="nombreProducto">Trucks</h3>
+        <p class="precioProducto">$320.000</p>
+        <div class="elegirTipo">
+            <select>
+                <option value="">Selecciona una marca</option>
+                <option value="IFH" data-imagen="./imagenes/hollow_silver.jpg" data-imagen-id="trucks">Independent Forget Hollow Silver</option>
+                <option value="IIR" data-imagen=./imagenes/industrial_raw.jpg" data-imagen-id="trucks">Independent Industrial Raw</option>
+                <option value="IPH" data-imagen="./imagenes/hawk_green.jpg" data-imagen-id="trucks">Independent Pro Hawk Transmission Silver Green</option>
+                <option value="THT" data-imagen="./imagenes/thunder.jpg" data-imagen-id="trucks">Thunder Aftershock Tm Blue</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+    
+    <div class="tarjetaProductos">
+        <img src="./imagenes/ruedas_default.jpg" alt="Ruedas" class="imagenProducto" id="ruedas">
+        <h3 class="nombreProducto">Ruedas</h3>
+        <p class="precioProducto">$150.000</p>
+        <div class="elegirTipo">
+            <select>
+                <option value="">Selecciona un estilo</option>
+                <option value="RCC" data-imagen="./imagenes/ricta_crystal.jpg" data-imagen-id="ruedas">Ricta Crystal Cores 95a</option>
+                <option value="RMG" data-imagen="./imagenes/ricta_mc.jpg" data-imagen-id="ruedas">Ricta McCoy Geo Naturals Slim 99a</option>
+                <option value="RBR" data-imagen="./imagenes/red.jpg" data-imagen-id="ruedas">Ruedas Blind Reaper Character Red</option>
+                <option value="RBB" data-imagen="./imagenes/blue.jpg" data-imagen-id="ruedas">Ruedas Blind Random Blue</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+</div>
+    
+    <h1 id="motociclismo" class="titulos">Motociclismo</h1>
+    <div class="contenedorProductosT">
+    <div class="tarjetaProductos">
+        <img src="./imagenes/Panigale.jpg" alt="Moto deportiva" class="imagenProducto">
+        <h3 class="nombreProducto">Ducati Panigale V4</h3>
+        <p class="precioProducto">$140'000.000</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona un color</option>
+                <option value="Rojo">Roja</option>
+                <option value="Negra">Negra</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/casco agv k1s.jpg" alt="Casco Moto" class="imagenProducto"> 
+        <h3 class="nombreProducto">Casco AGV K1 S - Black</h3>
+        <p class="precioProducto">$800.000</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+                <option value="XL">XL</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/Mono dainese.jpg" alt="Palchagui de Entrenamiento" class="imagenProducto">
+        <h3 class="nombreProducto">Mono Traje Dainese</h3>
+        <p class="precioProducto">$2'500.000</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+    
+    <div class="tarjetaProductos">
+        <img src="./imagenes/S1000RR.jpg" alt="Protector Entrenamiento" class="imagenProducto">
+        <h3 class="nombreProducto">BMW S1000RR</h3>
+        <p class="precioProducto">$140'000.000</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="Blanca">Blanca</option>
+                <option value="Negra">Negra</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+</div>
+
+<h1 id="patinaje" class="titulos">Patinaje</h1>
+    <div class="contenedorProductosT">
+    <div class="tarjetaProductos">
+        <img src="./imagenes/patines.png" alt="Moto deportiva" class="imagenProducto">
+        <h3 class="nombreProducto">Patines</h3>
+        <p class="precioProducto">$</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona un color</option>
+                <option value="S">34-36</option>
+                <option value="M">36-38</option>
+                <option value="L">38-40</option>
+                <option value="XL">40-42</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/casco_patinaje.jpg" alt="Casco Moto" class="imagenProducto"> 
+        <h3 class="nombreProducto">Casco</h3>
+        <p class="precioProducto">$</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una color</option>
+                <option value="Negro">Negro</option>
+                <option value="Blanco">Blanco</option>
+                <option value="Tornasol">Tornasol</option>
+                <option value="Dorado">Dorado</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+
+    <div class="tarjetaProductos">
+        <img src="./imagenes/licra.jpg" alt="Palchagui de Entrenamiento" class="imagenProducto">
+        <h3 class="nombreProducto">Licra</h3>
+        <p class="precioProducto">$</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="S">S</option>
+                <option value="M">M</option>
+                <option value="L">L</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+    
+    <div class="tarjetaProductos">
+        <img src="./imagenes/protecciones.jpg" alt="Protector Entrenamiento" class="imagenProducto">
+        <h3 class="nombreProducto">Protecciones</h3>
+        <p class="precioProducto">$</p>
+        <div class="elegirTalla">
+            <select>
+                <option value="">Selecciona una talla</option>
+                <option value="Unica">Unica</option>
+            </select>
+        </div>
+        <img class="img_comprado" src="./imagenes/orden_confirmada.svg" alt="">
+        <span class="espacio"></span>
+        <button class="añadirCarro">Agregar al Carrito</button>
+    </div>
+</div>
+
+</main>
+
+<section>
+    <div class="counter-wrapper">
+        <div class="counter">
+            <div class="icon"><img src="imagenes/clientes-icon.png" alt="Clientes" class="icon-img"></div>
+            <h1 class="count" data-target="8000">0</h1><span class="plus">+</span>
+            <p class="text">Clientes Satisfechos</p>
+        </div>
+        <div class="counter">
+            <div class="icon"><img src="imagenes/productos-vendidos.png" alt="Productos Vendidos" class="icon-img"></div>
+            <h1 class="count" data-target="10000">0</h1><span class="plus">+</span>
+            <p class="text">Productos Vendidos</p>
+        </div>
+        <div class="counter">
+            <div class="icon"><img src="imagenes/tiendas.png" alt="Tiendas" class="icon-img"></div>
+            <h1 class="count" data-target="200">0</h1><span class="plus">+</span>
+            <p class="text">Tiendas Asociadas</p>
+        </div>
+        <div class="counter">
+            <div class="icon"><img src="imagenes/embajadores.png" alt="Embajadores" class="icon-img"></div>
+            <h1 class="count" data-target="100">0</h1><span class="plus">+</span>
+            <p class="text">Embajadores de la Marca</p>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+
+    <footer>
+        <div id="footer_content">
+            <div id="footer_contacts">
+                <p class="text">Síguenos en nuestras redes sociales</p>
+                <div id="footer_social_media">
+                    <a href="#" class="footer-link" id="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer-link" id="facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="footer-link" id="whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="footer-link" id="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+            <ul class="footer-list">
+                <li><h3>Política de Privacidad</h3></li>
+                <li><a href="#" class="footer-link">Tratamiento de Datos Personales</a></li>
+                <li><a href="#" class="footer-link">Condiciones de Uso</a></li>
+                <li><a href="#" class="footer-link">Atención al Cliente (PQRS)</a></li>
+                <li><a href="#" class="footer-link">Superintendencia de industria y comercio</a></li>
+            </ul>
+            <div id="footer_subscribe">
+                <h3>Suscríbete</h3>
+                <p class="text">¡Únete a nuestra comunidad! Suscríbete para recibir promociones y novedades de nuestros productos.</p>
+                <div id="input_group">
+                    <input type="email" id="email" placeholder="Tu correo">
+                    <button><i class="fa-regular fa-envelope"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="footer_copyright">
+            &#169; 2025 Todos los derechos reservados.
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <script src="index.js"> </script>
+    <script src="animation_boton.js"> </script>
+</body>
+</html>
